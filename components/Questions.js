@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+//contains bank of questions
 const Questions = props => {
     if (props.number == 1){
      return (<div className="text-green-500 font-sans">
